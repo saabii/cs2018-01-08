@@ -36,14 +36,14 @@ class TaskC3 {
     // public static void main(String[] args){getWeight(0,0);}
 
     public static double getWeight(int weight) {
-        Scanner sc = new Scanner(System.in);
-        int i = sc.nextInt();
-        return (double) (Math.round(i * 386 / 9.81)) / 100;
+        return (double) (Math.round(weight * 386 / 9.81)) / 100;
     }
 
     public static void main(String[] args) {
         //  getWeight(0,0);
-        System.out.println(getWeight(0));
+        Scanner sc = new Scanner(System.in);
+        int weight = sc.nextInt();
+        System.out.println(getWeight(weight));
         // System.out.printf("%.2f", getWeight(0, 0));
     }
 
