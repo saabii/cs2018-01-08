@@ -15,5 +15,5 @@ class TaskA2 {
         System.out.println("Я начинаю изучать Java!");
         System.out.println("Я начинаю изучать Java!");
     }
-
+    
 }
