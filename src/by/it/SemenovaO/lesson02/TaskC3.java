@@ -39,16 +39,14 @@ class TaskC3
 
 
     public static void main(String[] args) {
-        System.out.println("Ввод:");
         Scanner sc = new Scanner(System.in);
         int weight = sc.nextInt();
         double weight_mars = getWeight(weight);
-        System.out.println("Вывод:");
-        System.out.printf("%5.2f",weight_mars);
+        System.out.println(weight_mars);
     }
 
     //вычисляем вес на Марсе
-    private static double getWeight(int  weight) {
+    public static double getWeight(int  weight) {
         double w= weight*GR_MARS/GR_EARTH;
         w=Math.round(w*100);
         w=w/100;
