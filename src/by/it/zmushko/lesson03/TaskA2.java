@@ -28,7 +28,7 @@ class TaskA2 {
         String d = "string4";
         String e = "string5";
         System.out.println("Мое любимое стихотворение");
-        System.out.println(a + "\n" + b + "\n" + c + "\n");
+        System.out.println(a + "\n" + b + "\n" + c + "\n"+d+"\n"+e);
     }
 
 }
