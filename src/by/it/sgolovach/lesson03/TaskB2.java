@@ -32,27 +32,26 @@ Lesson 04. Task B2. Нужно написать программу, котора
 
 */
 class TaskB2 {
-    private static double dis (double a,double b, double c ){
-        double d = b*b - 4*a*c;
+    private static double dis(double a, double b, double c) {
+        double d = b * b - 4 * a * c;
         return d;
     }
+
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        double a=sc.nextDouble();
-        double b=sc.nextDouble();
-        double c=sc.nextDouble();
-        double det=dis(a,b,c);
-        if (det>0){
-            double x1 = (-b + Math.sqrt(det))/(2*a);
-            double x2 = (-b - Math.sqrt(det))/(2*a);
-            System.out.println("x1="+x1+" x2="+x2);
-        }
-        else if (det==0){
-            double x1=(-b)/(2*a);
-            System.out.println("x="+x1);
-        }
-        else
-            System.out.println("Отрицательный дескриминант");
+        Scanner sc = new Scanner(System.in);
+        double a = sc.nextDouble();
+        double b = sc.nextDouble();
+        double c = sc.nextDouble();
+        double det = dis(a, b, c);
+        if (det > 0) {
+            double x1 = (-b + Math.sqrt(det)) / (2 * a);
+            double x2 = (-b - Math.sqrt(det)) / (2 * a);
+            System.out.println("Ввод:" + "\n" + (int)a +  " " + (int)b + " " + (int)c +  "\n" + "Вывод:" + "\n" + x1 + " " +x2);
+        } else if (det == 0) {
+            double x1 = (-b) / (2 * a);
+            System.out.println("Ввод:" + "\n" + (int)a +  " " + (int)b + " " + (int)c +  "\n" + "Вывод:" + "\n" + x1);
+        } else
+            System.out.println("Ввод:" + "\n" + (int)a +  " " + (int)b + " " + (int)c +  "\n" + "Вывод:" + "\n" + "Отрицательный дискриминант");
     }
 
 }

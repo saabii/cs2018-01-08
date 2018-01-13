@@ -22,11 +22,11 @@ Lesson 04. Task A2. Стихотворение
 */
 class TaskA2 {
     public static void main(String[] args) {
-        String a="string1";
-        String b="string2";
-        String c="string3";
-        String d="string4";
-        String e="string5";
+        String a="Однажды, в студеную зимнюю пору";
+        String b="Я из лесу вышел; был сильный мороз.";
+        String c="Гляжу, поднимается медленно в гору";
+        String d="Лошадка, везущая хворосту воз.";
+        String e="И шествуя важно, в спокойствии чинном,";
         System.out.println("Мое любимое стихотворение:");
         System.out.println(a+"\n"+b+"\n"+c+"\n"+d+"\n"+e+"\n");
     }
