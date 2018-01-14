@@ -33,16 +33,13 @@ import java.util.Scanner;
 */
 class TaskC3 {
 
-    private static double getWeight(int weight){
+    public static double getWeight(int weight){
        return (double) (Math.round(weight*386/9.81))/100;
     }
-
-
 
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int weight=sc.nextInt();
-
         System.out.println(getWeight(weight));
     }
 
