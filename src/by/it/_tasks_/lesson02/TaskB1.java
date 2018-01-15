@@ -18,4 +18,3 @@ Scanner sc=new Scanner(System.in);
 
 class TaskB1 {
     }
-}
