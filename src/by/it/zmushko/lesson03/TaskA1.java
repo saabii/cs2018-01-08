@@ -46,11 +46,12 @@ class TaskA1 {
         int sub=a-b;
         int mul=a*b;
         int div=a/b;
-        System.out.println(sum+" "+sub+" "+mul+" "+div);
+        int mod=a%b;
+        System.out.println(sum+" "+sub+" "+mul+" "+div + " " +mod);
         double dsum=a+b;
         double dsub=a-b;
         double dmul=a*b;
-        double ddiv=a/b;
+        double ddiv=(double) a/b;
         double dmod=a%b;
         System.out.println(dsum+" "+dsub+" "+dmul+" "+ddiv+" "+dmod);
         }
