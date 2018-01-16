@@ -23,6 +23,15 @@ package by.it.sgolovach.lesson04;
 десять умножить на десять равно сто
 */
 
+
 public class TaskC3 {
+    public static void main(String[] args) {
+        for (int i = 2; i <= 10; i++) {
+            for (int b = 2; b <= 10; b++) {
+                int c = b * i;
+                System.out.println(i + " умножить на " + b + " равно " + c);
+            }
+        }
+    }
 
 }
