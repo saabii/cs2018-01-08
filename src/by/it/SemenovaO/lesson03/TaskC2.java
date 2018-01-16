@@ -47,18 +47,10 @@ public class TaskC2 {
         }
         if (i < 5) {
             System.out.println(sumDigitsInNumber(number));
-        }
-        else
+        } else
             System.out.println("Вы ввели неправильное число. Попытайтесь заново");
+    }
 }
-
-
-}
-
-
-
-
-
 
 
 
