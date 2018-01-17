@@ -1,4 +1,4 @@
-package by.it.akhmelev.oymarygold.lesson02;
+package by.it.oymarygold.lesson02;
 
 class TaskA1 {
 /*

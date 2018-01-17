@@ -1,4 +1,4 @@
-package by.it.akhmelev.oymarygold.lesson02;
+package by.it.oymarygold.lesson02;
 /*
 Измените переменные и строку вывода в программе так,
 чтобы она рассчитывала и печатала следующее выражение
