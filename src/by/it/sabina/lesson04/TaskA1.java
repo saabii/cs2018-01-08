@@ -25,8 +25,18 @@ package by.it.sabina.lesson04;
 
  */
 public class TaskA1 {
-public static void main(String[] args){
-//    for(i=1;i<=2;i=++){
-//        System.out.println ("Я изучаю програмирование");
+    public static void main(String[] args) {
+        int i;
+        for (i = 1; i <= 10; i++) {
+            if (i == 3)
+                System.out.println("Меня интересует высокая зарплата!");
+            else if (i == 9)
+                System.out.println("Меня интересует высокая зарплата!");
+            else
+                System.out.println("Я изучаю программирование.");
+
+        }
+
+    }
 }
-}
+
